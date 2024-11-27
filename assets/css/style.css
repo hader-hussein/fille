@@ -307,6 +307,17 @@ margin-bottom: 16px;
     background: #000;
     color: #fff !important;
 }
+.span-title{
+    color: var(--color-primary);
+    font-size: 40px;
+}
+.list-locetion i{
+    font-size: 30px;
+    color: var(--color-primary);
+}
+.list-locetion li{
+    font-size: 20px;
+}
 /*services*/
 .component-services{
     box-shadow: 0 7px 50px rgba(0, 0, 0, .1);
@@ -438,6 +449,7 @@ margin-bottom: 16px;
     opacity: .8;
     z-index: -1;
 }
+
 /*content-us*/
 .title-ti {
     color: var(--color-h);
