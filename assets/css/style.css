@@ -133,7 +133,7 @@ ul li{
                transition: 0.8s;
            }
            .navber-index .collapse.show{
-             background-color: var((--color-white));
+             background-color: var(--color-white);
            }
            .navber-index.scrolled .navbar-nav .nav-link{
             color: var(--color-white);
@@ -149,13 +149,19 @@ body:not(.home-page) .navber-index {
 body:not(.home-page) .navber-index .nav-link {
     color: #fff !important;
 }
+.navbar-toggler {
+background-color: #fff;
+}
      /*end-nav*/
      /*slider*/
      .corousel-index {
           height: 100vh;
       }
-      .corousel-index .carousel-inner, .corousel-index .carousel-item, .img-slider img {
+      .corousel-index .carousel-inner, .corousel-index .carousel-item, .carousel-item img {
           height: 100%;
+      }
+      .carousel-item img {
+        object-fit: cover;
       }
       .carousel-control-next-icon, .carousel-control-prev-icon{
         border: 1px solid var(--color-primary);
