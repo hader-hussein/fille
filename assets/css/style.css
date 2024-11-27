@@ -180,8 +180,24 @@ background-color: #fff;
         padding-bottom: 1.25rem;
         color: var(--color-p);
         text-align: center;
-        top: 39%;
-        width: 26%;
+       
+    }
+    @media (min-width:1000px) {
+        .carousel-caption {
+           
+            top: 39%;
+            width: 26%;
+        }
+    }
+    @media (max-width:1000px) {
+        .carousel-item img {
+           
+            height: 500px;
+        }
+        .navber-index{
+            background-color: var(--color-h);
+        }
+
     }
     .carousel-caption h5{
 color: var(--color-primary);
